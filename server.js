@@ -9,5 +9,5 @@ const apiRoutes = require("./routes/api-routes");
 app.use("/", apiRoutes);
 
 app.listen(PORT, () => {
-  console.log("listening");
+  console.log(`listening at http://localhost:${PORT}`);
 });
